@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e04948-b608-4ca4-b85c-b64632ddf8b5" name="Default Changelist" comment="" />
+    <list default="true" id="b3e04948-b608-4ca4-b85c-b64632ddf8b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/TempleteMethod/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/BuildingModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/pattern/SingleTon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/pattern/SingleTon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,20 +23,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XBsYEF6ZVPGEOV0uP372Yn0Dfr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/pattern/factoryMethod" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\01-学习\01-java\DesignPattern\src\com\pattern\factoryMethod" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -54,6 +81,8 @@
       <updated>1580530868090</updated>
       <workItem from="1580530871132" duration="6814000" />
       <workItem from="1580543772342" duration="638000" />
+      <workItem from="1580546845436" duration="690000" />
+      <workItem from="1580622854084" duration="5386000" />
     </task>
     <servers />
   </component>
@@ -73,22 +102,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="458" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1580534313216" />
-    <state width="1493" height="84" key="GridCell.Tab.0.bottom" timestamp="1580539314326">
+    <state x="275" y="176" key="FileChooserDialogImpl" timestamp="1580628106685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580539314326" />
-    <state width="1493" height="84" key="GridCell.Tab.0.center" timestamp="1580539314325">
+    <state x="275" y="176" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580628106685" />
+    <state width="1493" height="42" key="GridCell.Tab.0.bottom" timestamp="1580628962086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580539314325" />
-    <state width="1493" height="84" key="GridCell.Tab.0.left" timestamp="1580539314325">
+    <state width="1493" height="42" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
+    <state width="1493" height="42" key="GridCell.Tab.0.center" timestamp="1580628962086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580539314325" />
-    <state width="1493" height="84" key="GridCell.Tab.0.right" timestamp="1580539314325">
+    <state width="1493" height="42" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
+    <state width="1493" height="42" key="GridCell.Tab.0.left" timestamp="1580628962086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580539314325" />
+    <state width="1493" height="42" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
+    <state width="1493" height="42" key="GridCell.Tab.0.right" timestamp="1580628962086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="42" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
     <state width="1493" height="248" key="GridCell.Tab.1.bottom" timestamp="1580539314321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -105,10 +138,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="248" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580539314321" />
-    <state x="334" y="59" key="SettingsEditor" timestamp="1580537244028">
+    <state x="334" y="59" key="SettingsEditor" timestamp="1580626027330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="334" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580537244028" />
+    <state x="334" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580626027330" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1580622872668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580622872668" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -120,7 +157,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
