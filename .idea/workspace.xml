@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e04948-b608-4ca4-b85c-b64632ddf8b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/TempleteMethod/ProjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/BuildingModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/DeviceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/factoryMethod/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/strategy/EthernetFormula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/strategy/FilbrePortFormula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/strategy/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/strategy/LinkCalculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/pattern/SingleTon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/pattern/SingleTon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wangjinxing01 &lt;254231654@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XBsYEF6ZVPGEOV0uP372Yn0Dfr" />
@@ -83,6 +83,7 @@
       <workItem from="1580543772342" duration="638000" />
       <workItem from="1580546845436" duration="690000" />
       <workItem from="1580622854084" duration="5386000" />
+      <workItem from="1581000097925" duration="5821000" />
     </task>
     <servers />
   </component>
@@ -98,46 +99,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="399" y="100" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580537546887" />
-    <state width="458" height="466" key="DebuggerActiveHint" timestamp="1580534313216">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1581120992573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="458" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1580534313216" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581120992573" />
+    <state x="394" y="0" key="CommitChangelistDialog2" timestamp="1581144253811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="394" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581144253811" />
+    <state width="458" height="466" key="DebuggerActiveHint" timestamp="1581143432489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="458" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1581143432489" />
     <state x="275" y="176" key="FileChooserDialogImpl" timestamp="1580628106685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="176" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580628106685" />
-    <state width="1493" height="42" key="GridCell.Tab.0.bottom" timestamp="1580628962086">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="42" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
-    <state width="1493" height="42" key="GridCell.Tab.0.center" timestamp="1580628962086">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="42" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
-    <state width="1493" height="42" key="GridCell.Tab.0.left" timestamp="1580628962086">
+    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1581144076795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="42" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
-    <state width="1493" height="42" key="GridCell.Tab.0.right" timestamp="1580628962086">
+    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581144076795" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="42" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580628962086" />
-    <state width="1493" height="248" key="GridCell.Tab.1.bottom" timestamp="1580539314321">
+    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580539314321" />
-    <state width="1493" height="248" key="GridCell.Tab.1.center" timestamp="1580539314321">
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580539314321" />
-    <state width="1493" height="248" key="GridCell.Tab.1.left" timestamp="1580539314321">
+    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580539314321" />
-    <state width="1493" height="248" key="GridCell.Tab.1.right" timestamp="1580539314321">
+    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
+    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1581144076796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580539314321" />
+    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581144076796" />
     <state x="334" y="59" key="SettingsEditor" timestamp="1580626027330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -146,21 +155,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580622872668" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581142376775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581142376775" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/util/MultiThread.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/com/pattern/strategy/LinkCalculation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DesignPattern$Main.ic" NAME="Main Coverage Results" MODIFIED="1581143480015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
