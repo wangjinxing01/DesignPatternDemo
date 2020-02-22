@@ -1,5 +1,6 @@
 package com.company;
 
+import com.observer.*;
 import com.pattern.*;
 import com.pattern.TempleteMethod.*;
 import com.pattern.factoryMethod.BuildingModelFactory;
@@ -21,7 +22,25 @@ public class Main {
         testTempleteMethod();
         testFactoryMethod();
         testStrategy();
+        testObserver();
     }
+
+    private static void testObserver() {
+        Subject cacheSubject = new CacheSubject();
+        Observer planeObserver = new PlaneObserver();
+        Observer systemObserver = new SystemObserver();
+        Observer elevatorObserver = new ElevatorObserver();
+
+        cacheSubject.addObserver(planeObserver);
+        cacheSubject.addObserver(systemObserver);
+        cacheSubject.addObserver(elevatorObserver);
+
+        DataBean data = new DataBean();
+        data.setSource(100);
+        data.setData(50000);
+        cacheSubject.notifyObserver(data);
+    }
+
 
     private static void testFactoryMethod() {
         List<Factory> factories = new LinkedList<>();

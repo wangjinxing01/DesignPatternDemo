@@ -25,6 +25,29 @@
 # 2. 策略模式
 通过委托而不是继承来实现。
 
+# 3. 观察者模式  
+- 通过数据驱动通知；或者通过手工调用来进行通知。各有优劣  
+- 如何做到通知时跳过自己，并且是子类无感知的做到。  
+>> 观察者子类设置标识，并在基类初始化时调用  
+>> 观察者基类中过滤掉自己  
+```java
+public abstract class Observer {
+    protected int source;
+    public Observer() {
+        setSource();
+    }
+    public abstract void setSource();
+    public void response(DataBean data) {
+        if (data.getSource() == source) {
+            return;
+        }
+        response();
+    }
+
+    public abstract void response();
+}
+```
+
 # 2. 减少耦合的代码方案
 ## 通过接口减少不同类之间的直接耦合
 ## 通过设计模式（其实还是接口化）来减少耦合
